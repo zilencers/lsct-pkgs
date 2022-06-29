@@ -2,46 +2,46 @@ NAME=AppArmor
 DESC=A|Linux|Kernel|Security|module|allowing|sysadmins|to|restrict|programs|capabilities
 ARCH_PKG=apparmor
 DEB_PKG=
-GIT=
+GIT=https://github.com/zilencers/lsct-apparmor
 
 NAME=PAM
 DESC=Set|password|quality|rules,|login|timeouts,|retry|attempts,|and|more
 ARCH_PKG=libpwquality
 DEB_PKG=
-GIT=
+GIT=https://github.com/zilencers/lsct-pam.git
 
 NAME=Firewall
 DESC=Firewall|daemon|with|D-Bus|interface
 ARCH_PKG=firewalld
 DEB_PKG=
-GIT=
+GIT=https://github.com/zilencers/lsct-firewall.git
 
 NAME=NetCtl
 DESC=Profile|based|systemd|network|management
 ARCH_PKG=netctl|ifplugd|dhcpcd|wpa_supplicant
 DEB_PKG=
-GIT=
+GIT=https://github.com/zilencers/lsct-netctl.git
 
 NAME=OpenSSH
 DESC=Connectivity|tool|for|remote|login|with|the|SSH|protocol
 ARCH_PKG=openssh
 DEB_PKG=openssh-server
-GIT=
+GIT=https://github.com/zilencers/lsct-ssh.git
 
 NAME=TCP|Harden
 DESC=A|set|of|kernel|parameters|used|to|harden|the|system|against|network|attacks 
 ARCH_PKG=
 DEB_PKG=
-GIT=
+GIT=https://github.com/zilencers/lsct-tcp.git
 
 NAME=YubiKey
 DESC=Hardware|device|used|to|protect|access|to|computers|via|OTP,|public-key|crypto,|U2F,|and|FIDO2
 ARCH_PKG=yubikey-manager|yubico-pam|pam-u2f
 DEB_PKG=
-GIT=
+GIT=https://github.com/zilencers/lsct-fido.git
 
 NAME=WiFi|AP
 DESC=IEEE|802.11|AP,|IEEE|802.1X/WPA/WPA2/EAP/RADIUS|Authenticator
 ARCH_PKG=hostapd
 DEB_PKG=hostapd
-GIT=
+GIT=https://github.com/zilencers/lsct-hostapd.git
