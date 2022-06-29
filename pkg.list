@@ -1,47 +1,55 @@
 NAME=AppArmor
 DESC=A|Linux|Kernel|Security|module|allowing|sysadmins|to|restrict|programs|capabilities
+LSCT_PKG=lsct-apparmor
 ARCH_PKG=apparmor
 DEB_PKG=
 GIT=https://github.com/zilencers/lsct-apparmor
 
 NAME=PAM
 DESC=Set|password|quality|rules,|login|timeouts,|retry|attempts,|and|more
+LSCT_PKG=lsct-pam
 ARCH_PKG=libpwquality
 DEB_PKG=
 GIT=https://github.com/zilencers/lsct-pam.git
 
 NAME=Firewall
 DESC=Firewall|daemon|with|D-Bus|interface
+LSCT_PKG=lsct-firewall
 ARCH_PKG=firewalld
 DEB_PKG=
 GIT=https://github.com/zilencers/lsct-firewall.git
 
 NAME=NetCtl
 DESC=Profile|based|systemd|network|management
+LSCT_PKG=lsct-netctl
 ARCH_PKG=netctl|ifplugd|dhcpcd|wpa_supplicant
 DEB_PKG=
 GIT=https://github.com/zilencers/lsct-netctl.git
 
 NAME=OpenSSH
 DESC=Connectivity|tool|for|remote|login|with|the|SSH|protocol
+LSCT_PKG=lsct-ssh
 ARCH_PKG=openssh
 DEB_PKG=openssh-server
 GIT=https://github.com/zilencers/lsct-ssh.git
 
 NAME=TCP|Harden
-DESC=A|set|of|kernel|parameters|used|to|harden|the|system|against|network|attacks 
+DESC=A|set|of|kernel|parameters|used|to|harden|the|system|against|network|attacks
+LSCT_PKG=lsct-tcp
 ARCH_PKG=
 DEB_PKG=
 GIT=https://github.com/zilencers/lsct-tcp.git
 
 NAME=YubiKey
 DESC=Hardware|device|used|to|protect|access|to|computers|via|OTP,|public-key|crypto,|U2F,|and|FIDO2
+LSCT_PKG=lsct-fido
 ARCH_PKG=yubikey-manager|yubico-pam|pam-u2f
 DEB_PKG=
 GIT=https://github.com/zilencers/lsct-fido.git
 
 NAME=WiFi|AP
 DESC=IEEE|802.11|AP,|IEEE|802.1X/WPA/WPA2/EAP/RADIUS|Authenticator
+LSCT_PKG=lsct-hostapd
 ARCH_PKG=hostapd
 DEB_PKG=hostapd
 GIT=https://github.com/zilencers/lsct-hostapd.git
