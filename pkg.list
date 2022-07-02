@@ -5,19 +5,19 @@ ARCH_PKG=apparmor
 DEB_PKG=
 GIT=https://github.com/zilencers/lsct-apparmor
 
-NAME=PAM
-DESC=Set|password|quality|rules,|login|timeouts,|retry|attempts,|and|more
-LSCT_PKG=lsct-pam
-ARCH_PKG=libpwquality
-DEB_PKG=
-GIT=https://github.com/zilencers/lsct-pam.git
-
 NAME=Firewall
 DESC=Firewall|daemon|with|D-Bus|interface
 LSCT_PKG=lsct-firewall
 ARCH_PKG=firewalld
 DEB_PKG=
 GIT=https://github.com/zilencers/lsct-firewall.git
+
+NAME=LXD
+DESC=LXD|is|a|system|container|and|virtual|machine|manager
+LSCT_PKG=lsct-lxd
+ARCH_PKG=lxd
+DEB_PKG=
+GIT=https://github.com/zilencers/lsct-lxd.git
 
 NAME=NetCtl
 DESC=Profile|based|systemd|network|management
@@ -32,6 +32,13 @@ LSCT_PKG=lsct-ssh
 ARCH_PKG=openssh
 DEB_PKG=openssh-server
 GIT=https://github.com/zilencers/lsct-ssh.git
+
+NAME=PAM
+DESC=Set|password|quality|rules,|login|timeouts,|retry|attempts,|and|more
+LSCT_PKG=lsct-pam
+ARCH_PKG=libpwquality
+DEB_PKG=
+GIT=https://github.com/zilencers/lsct-pam.git
 
 NAME=TCP|Harden
 DESC=A|set|of|kernel|parameters|used|to|harden|the|system|against|network|attacks
