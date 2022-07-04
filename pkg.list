@@ -40,6 +40,13 @@ ARCH_PKG=libpwquality
 DEB_PKG=
 GIT=https://github.com/zilencers/lsct-pam.git
 
+NAME=Sudo
+DESC=Give|certain|users|the|ability|to|run|some|commands|as|root
+LSCT_PKG=lsct-sudo
+ARCH_PKG=sudo
+DEB_PKG=
+GIT=https://github.com/zilencers/lsct-sudo
+
 NAME=TCP|Harden
 DESC=A|set|of|kernel|parameters|used|to|harden|the|system|against|network|attacks
 LSCT_PKG=lsct-tcp
