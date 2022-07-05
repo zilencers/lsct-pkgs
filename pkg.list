@@ -33,12 +33,12 @@ ARCH_PKG=openssh
 DEB_PKG=openssh-server
 GIT=https://github.com/zilencers/lsct-ssh.git
 
-NAME=PAM
+NAME=PWQuality
 DESC=Set|password|quality|rules,|login|timeouts,|retry|attempts,|and|more
-LSCT_PKG=lsct-pam
+LSCT_PKG=lsct-pwquality
 ARCH_PKG=libpwquality
 DEB_PKG=
-GIT=https://github.com/zilencers/lsct-pam.git
+GIT=https://github.com/zilencers/lsct-pwquality.git
 
 NAME=Sudo
 DESC=Give|certain|users|the|ability|to|run|some|commands|as|root
